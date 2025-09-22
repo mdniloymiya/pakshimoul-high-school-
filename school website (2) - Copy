@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakshimoul Hazi Shisho Mia High School</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #f5f5f5;
+        }
+
+        header {
+            background: url('school-banner.jpg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            background-blend-mode: darken;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        nav {
+            background: #006400;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background: #009900;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 50px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #006400;
+            border-left: 5px solid #009900;
+            padding-left: 10px;
+        }
+
+        .principal {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .principal img {
+            max-width: 180px;
+            border-radius: 10px;
+            border: 3px solid #009900;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            background: #004d00;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 60px 20px;
+            }
+
+            .principal {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Pakshimoul Hazi Shisho Mia High School</h1>
+        <p>Education for a Brighter Future</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#principal">Principal's Message</a>
+        <a href="#notices">Notices</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <div id="about" class="section">
+            <h2>About Us</h2>
+            <p style = "color:black">Pakshimoul Hazi Shisho Mia High School is committed to academic excellence, moral values, and personal
+                growth for every student. We provide quality education in a supportive environment.</p>
+        </div>
+
+        <div id="principal" class="section">
+            <h2>Principal's Message</h2>
+            <div class="principal">
+                <img src = "https://scontent.fdac24-5.fna.fbcdn.net/v/t39.30808-1/454738852_3848472752143448_5682660641512332775_n.jpg?stp=c0.0.250.250a_dst-jpg_s200x200_tt6&_nc_cat=103&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeFZABgITWCF7ss7lL0BTUowyADzJFfARyfIAPMkV8BHJ3hMp-McbBsM_vAMoVm1nUi7yTZ3CM-UmLpjIhX0wazZ&_nc_ohc=-UZxbNjn2nIQ7kNvwFERlFM&_nc_oc=AdmjFjpKgMu53qikJTewcl8HPmBznj1jDc-r5vD1zfjaSUu5nTakVHuuwdW2X6C7t68&_nc_zt=24&_nc_ht=scontent.fdac24-5.fna&_nc_gid=23GZVKaYGLWCGDL0ACLrAg&oh=00_Afa3_1Mz55TPVxuGHfcf1WUhGAlOWxsH654TXYLczMGO5g&oe=68D70FA4">
+                <p style = "color:black">Welcome to our school. We aim to nurture not only bright minds but also compassionate hearts. Our
+                    dedicated teachers, modern facilities, and student-centered approach ensure that every learner
+                    thrives academically and socially.</p>
+            </div>
+        </div>
+
+        <div id="notices" class="section">
+            <h2>Notices</h2>
+            <ul>
+                <li style = "color:black">📢 Admission for 2025 is now open.</li>
+                <li style = "color:black">📢 SSC Exam schedule will be announced soon.</li>
+            </ul>
+        </div>
+
+        <div id="events" class="section">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li style = "color:black">🎉 Annual Cultural Program – September 20</li>
+                <li style = "color:black">🏆 Sports Day – November 10</li>
+            </ul>
+        </div>
+
+        <div id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p style = "color:black">Email: info@phsmhs.edu.bd</p>
+            <p style = "color:black">Phone: 01727415410</p>
+            <p style = "color:black">Address: Pakshimoul, Brahmonbaria, Bangladesh</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Pakshimoul Hazi Shisho Mia High School. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
